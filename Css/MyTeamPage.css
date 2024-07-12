@@ -24,7 +24,8 @@
    max-width: 1440px;
    margin: 0 auto;
    padding: 4rem 6rem;
-   margin-bottom: 4rem;
+   height: 100vh;
+   margin-bottom: 6rem;
    transition: all 800ms;
 }
 .team-title{
