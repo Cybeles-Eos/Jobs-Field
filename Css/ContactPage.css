@@ -23,7 +23,8 @@
 .main_contact-page{
    max-width: 1440px;
    margin: 0 auto;
-   height: 30rem;
+   height: 100vh;
+   margin-bottom: 4rem;
    padding: 2rem 4rem;
    padding-left: 6rem !important;
 
