@@ -102,6 +102,20 @@
 .goto-job:hover{
    opacity: .9;
 }
+
+.invert-box{
+   background-color: var(--Drk-Text) !important;
+   border: none !important;
+}
+.invert-text{
+   color: var(--Drk-Gry) !important;
+}
+.invert-btn{
+   font-weight: 600;
+   color: var(--Drk-Text) !important;
+   background-color: var(--Drk-Gry) !important;
+}
+
 @media screen and (max-width: 960px) {
    .jobs-boxes{
       grid-template-columns: 1fr 1fr 1fr;
