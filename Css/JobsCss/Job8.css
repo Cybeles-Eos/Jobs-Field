@@ -67,17 +67,29 @@
 
 .instruct-box{
    margin: 5rem 0 3rem 15px;
+   background-color: var(--Drk-Blu);
+   padding: 3rem 4rem;
+   border-radius: 10px;
 }
 .inst-b-title{
+   margin-top: 2rem;
    font-size: 23px;
    font-family: var(--Inria-Serif);
    font-weight: 700;
    margin-bottom: 1rem;
+   color: var(--Drk-Gry);
+}
+.sec-t{
+   color: var(--Drk-Blu) !important;
+   margin-bottom: 2rem;
 }
 .inst-b-text{
+   margin-top: 2rem;
    font-size: 14px;
-   line-height: 22px;
-   max-width: 1000px;
+   line-height: 29px;
+   color: var(--Drk-Gry);
+   margin-bottom: 2rem;
+   text-align: justify;
 }
 .does-box{
    margin: 5rem 0 3rem 15px;
@@ -85,18 +97,36 @@
 .does-text{
    font-size: 14px;
    margin-top: 1rem;
+   margin-left: 16px;
 }
 @media screen and (max-width: 640px) {
    .main-job-page{
       padding: 4rem 1.5rem;
    }
+   .instruct-box{
+      margin: 5rem 0 3rem 15px;
+      background-color: var(--Drk-Blu);
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+   }
    .inst-b-title{
       font-size: 20px;
    }
+   
    .does-box, .instruct-box, .job-role-container{
       margin-left: 0px !important;
    }
    .does-text, .inst-b-text{
       text-align: justify;
+   }
+}
+@media screen and (max-width: 440px) {
+   .inst-b-text{
+      margin-top: 2rem;
+      text-align: justify;
+   }
+   .does-text{
+      font-size: 13px;
+      margin-left: 0px;
    }
 }
