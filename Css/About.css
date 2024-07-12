@@ -20,7 +20,10 @@
    font-family: var(--Poppins);
 }
 
-
+.main_about-page{
+   height: 100vh;
+   margin-bottom: 4rem;
+}
 .about-this-project{
    max-width: 1440px;
    margin: 0 auto;
